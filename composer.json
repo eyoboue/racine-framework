@@ -1,0 +1,23 @@
+{
+  "name": "racinephp/racine-framework",
+  "type": "project",
+  "version": "1.0.0-dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugène YOBOUE",
+      "email": "yaoeugeneyoboue@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "racinephp/racine": "dev-master"
+
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "../composer-packages/racinephp-racine"
+    }
+  ]
+}
