@@ -2,5 +2,5 @@
 
 return [
     "name" => "Racine",
-    "path" => "",
+    "path" => "/racine-framework/",
 ];

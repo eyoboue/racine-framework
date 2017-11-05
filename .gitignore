@@ -1,5 +1,7 @@
 /storage/logs/*
+
 !storage/logs/.gitkeep
+
 /vendor
 /composer.phar
 node_modules/

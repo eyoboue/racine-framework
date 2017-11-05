@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "racinephp/racine": "dev-master"
+    "racinephp/racine": "1.0.1-dev"
 
   },
   "autoload": {
@@ -24,7 +24,7 @@
   },
   "repositories": [
     {
-      "type": "vcs",
+      "type": "path",
       "url": "../composer-packages/racinephp-racine"
     }
   ]
