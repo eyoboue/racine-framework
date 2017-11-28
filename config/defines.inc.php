@@ -13,3 +13,7 @@ define('_RESOURCES_DIR_', _ROOT_DIR_.DIRECTORY_SEPARATOR.'resources');
 define('_VIEWS_DIR_', _RESOURCES_DIR_.DIRECTORY_SEPARATOR.'views');
 
 define('_PAGE_DIR_', _ROOT_DIR_);
+
+
+// Controller action query string
+define('_CONTROLLER_REQUEST_ACTION_', '_a');
