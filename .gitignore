@@ -12,3 +12,6 @@ npm*.log
 composer*.log
 composer.lock
 phpunit.xml
+
+/config/app.php
+/config/database.php

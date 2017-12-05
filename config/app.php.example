@@ -1,0 +1,11 @@
+<?php
+
+/**
+ *  Configuration
+ *  Copy this file to "app.php" (cp app.php.example app.php)
+ */
+
+return [
+    "name" => "racine", // Application name
+    "path" => "/", // Base path regarding le Document root
+];
