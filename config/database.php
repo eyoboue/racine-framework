@@ -6,11 +6,11 @@ return [
     'connections' => [
         'mysql' => [
             'driver' => 'mysql',
-            'host' => '127.0.0.1',
-            'port' => '3306',
-            'database' => 'racine',
-            'username' => 'root',
-            'password' => '',
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_NAME', 'racine'),
+            'user' => env('DB_USER', 'root'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8'
         ]
     ]

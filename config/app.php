@@ -1,6 +1,6 @@
 <?php
 
 return [
-    "name" => "Racine",
-    "path" => "/racine-framework/",
+    "name" => env("APP_NAME", "Racine"),
+    "path" => env("APP_PATH", "/racine-framework/public/"),
 ];
