@@ -2,5 +2,5 @@
 
 return [
     "name" => env("APP_NAME", "Racine"),
-    "path" => env("APP_PATH", "/racine-framework/public/"),
+    "path" => env("APP_PATH", "/"),
 ];
